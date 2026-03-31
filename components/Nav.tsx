@@ -38,7 +38,7 @@ export default function Nav() {
         {/* Logo */}
         <a
           href="#"
-          className="text-[15px] font-semibold text-foreground tracking-tight"
+          className="text-[15px] font-semibold text-foreground tracking-[-0.03em]"
           aria-label="Flewidity — home"
         >
           Flewidity

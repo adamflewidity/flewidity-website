@@ -8,10 +8,11 @@ export default function Home() {
       <main className="pt-16">
         {/* ── Hero ─────────────────────────────────────────────────────── */}
         <section className="max-w-5xl mx-auto px-6 py-28 md:py-40">
+          <hr className="w-8 border-t border-foreground mb-8" />
           <p className="text-xs font-medium tracking-widest uppercase text-muted-light mb-8">
             Flewidity Ltd
           </p>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground leading-[1.15] tracking-tight max-w-3xl">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-[1.1] tracking-tight max-w-3xl">
             Technology, consulting, and marketing operations for businesses that
             need things to actually work.
           </h1>
@@ -40,6 +41,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               {/* Service 1 */}
               <div className="border-t border-border-strong pt-8">
+                <p className="text-xs font-medium tracking-widest uppercase text-muted-light mb-4">01</p>
                 <h2 className="text-xl font-semibold text-foreground mb-4 leading-snug">
                   Marketing Operations &amp; Automation
                 </h2>
@@ -70,6 +72,7 @@ export default function Home() {
 
               {/* Service 2 */}
               <div className="border-t border-border-strong pt-8">
+                <p className="text-xs font-medium tracking-widest uppercase text-muted-light mb-4">02</p>
                 <h2 className="text-xl font-semibold text-foreground mb-4 leading-snug">
                   Software &amp; Product Development
                 </h2>
@@ -91,6 +94,7 @@ export default function Home() {
 
               {/* Service 3 */}
               <div className="border-t border-border-strong pt-8">
+                <p className="text-xs font-medium tracking-widest uppercase text-muted-light mb-4">03</p>
                 <h2 className="text-xl font-semibold text-foreground mb-4 leading-snug">
                   Business Consulting &amp; Diagnostics
                 </h2>
@@ -210,18 +214,18 @@ export default function Home() {
         </section>
 
         {/* ── Contact ──────────────────────────────────────────────────── */}
-        <section id="contact" className="border-t border-border">
+        <section id="contact" className="bg-foreground">
           <div className="max-w-5xl mx-auto px-6 py-24 md:py-32">
-            <h2 className="text-3xl md:text-4xl font-semibold text-foreground leading-tight tracking-tight max-w-lg">
+            <h2 className="text-3xl md:text-4xl font-semibold text-background leading-tight tracking-tight max-w-lg">
               Got something you want to build, fix, or figure out?
             </h2>
-            <p className="mt-5 text-[15px] text-muted leading-relaxed max-w-sm">
+            <p className="mt-5 text-[15px] text-muted-light leading-relaxed max-w-sm">
               Drop us a line. If we can help, we will. If we can&apos;t,
               we&apos;ll tell you.
             </p>
             <a
               href="mailto:hello@flewidity.com"
-              className="inline-flex items-center mt-8 text-lg text-foreground underline underline-offset-4 decoration-border-strong hover:decoration-foreground transition-[text-decoration-color] duration-150"
+              className="inline-flex items-center mt-8 text-lg text-background underline underline-offset-4 decoration-muted-light hover:decoration-background transition-[text-decoration-color] duration-150"
             >
               hello@flewidity.com
             </a>
