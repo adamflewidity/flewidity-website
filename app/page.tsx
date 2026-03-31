@@ -137,7 +137,7 @@ export default function Home() {
                   down to minutes.
                 </p>
                 <a
-                  href="https://term-seeker.vercel.app/"
+                  href="https://term-seeker.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center mt-6 text-[14px] text-foreground underline underline-offset-4 decoration-border-strong hover:decoration-foreground transition-[text-decoration-color] duration-150"
