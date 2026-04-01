@@ -28,6 +28,13 @@ export const metadata: Metadata = {
     description:
       "We build software products, fix marketing and sales systems, and help businesses solve operational problems.",
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    apple: "/favicon.png",
+  },
   robots: {
     index: true,
     follow: true,

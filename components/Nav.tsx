@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 const links = [
   { label: "What We Do", href: "#what-we-do" },
@@ -36,12 +37,15 @@ export default function Nav() {
     >
       <nav className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
-        <a
-          href="#"
-          className="text-[15px] font-semibold text-foreground tracking-[-0.03em]"
-          aria-label="Flewidity — home"
-        >
-          Flewidity
+        <a href="#" aria-label="Flewidity — home">
+          <Image
+            src="/Flewidity Logo.svg"
+            alt="Flewidity"
+            width={36}
+            height={36}
+            priority
+            className="rounded-md"
+          />
         </a>
 
         {/* Desktop nav links */}
