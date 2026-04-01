@@ -50,7 +50,7 @@ export default function Nav() {
             <li key={link.href}>
               <a
                 href={link.href}
-                className="text-[15px] text-muted hover:text-foreground transition-colors duration-150"
+                className="text-[15px] text-muted hover:text-accent transition-colors duration-150"
               >
                 {link.label}
               </a>
@@ -61,7 +61,7 @@ export default function Nav() {
         {/* Desktop email CTA */}
         <a
           href="mailto:hello@flewidity.com"
-          className="hidden md:inline text-[15px] text-foreground underline underline-offset-4 decoration-border hover:decoration-foreground transition-[text-decoration-color] duration-150"
+          className="hidden md:inline text-[15px] text-foreground underline underline-offset-4 decoration-border hover:decoration-accent transition-[text-decoration-color] duration-150"
         >
           hello@flewidity.com
         </a>

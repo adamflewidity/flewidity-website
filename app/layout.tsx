@@ -11,7 +11,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Flewidity — Technology, Consulting & Marketing Operations",
   description:
-    "Flewidity is a technology and consulting business run by Adam and Caroline Wiltsher. We build software products, fix marketing and sales systems, and help businesses solve operational problems.",
+    "Flewidity is a technology and consulting business run by Adam and Caroline. We build software products, fix marketing and sales systems, and help businesses solve operational problems.",
   metadataBase: new URL("https://flewidity.com"),
   openGraph: {
     title: "Flewidity — Technology, Consulting & Marketing Operations",

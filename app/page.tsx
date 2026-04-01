@@ -8,7 +8,7 @@ export default function Home() {
       <main className="pt-16">
         {/* ── Hero ─────────────────────────────────────────────────────── */}
         <section className="max-w-5xl mx-auto px-6 py-28 md:py-40">
-          <hr className="w-8 border-t border-foreground mb-8" />
+          <div className="w-8 h-[3px] bg-accent mb-8" />
           <p className="text-xs font-medium tracking-widest uppercase text-muted-light mb-8">
             Flewidity Ltd
           </p>
@@ -18,13 +18,13 @@ export default function Home() {
           </h1>
           <p className="mt-8 text-lg text-muted leading-relaxed max-w-2xl">
             Flewidity is a technology and consulting business run by Adam and
-            Caroline Wiltsher. We build software products, fix marketing and
+            Caroline. We build software products, fix marketing and
             sales systems, and help businesses solve operational problems.
           </p>
           <div className="mt-10">
             <a
               href="mailto:hello@flewidity.com"
-              className="inline-flex items-center justify-center border border-foreground text-foreground px-8 py-3 text-[15px] font-medium hover:bg-foreground hover:text-background transition-colors duration-150"
+              className="inline-flex items-center justify-center bg-accent text-background px-8 py-3 text-[15px] font-medium hover:opacity-90 transition-opacity duration-150"
             >
               Get in touch
             </a>
@@ -34,14 +34,14 @@ export default function Home() {
         {/* ── What We Do ───────────────────────────────────────────────── */}
         <section id="what-we-do" className="border-t border-border bg-subtle">
           <div className="max-w-5xl mx-auto px-6 py-24 md:py-32">
-            <p className="text-xs font-medium tracking-widest uppercase text-muted-light mb-12">
+            <p className="text-xs font-medium tracking-widest uppercase text-accent mb-12">
               What We Do
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               {/* Service 1 */}
               <div className="border-t border-border-strong pt-8">
-                <p className="text-xs font-medium tracking-widest uppercase text-muted-light mb-4">01</p>
+                <p className="text-xs font-medium tracking-widest uppercase text-accent mb-4">01</p>
                 <h2 className="text-xl font-semibold text-foreground mb-4 leading-snug">
                   Marketing Operations &amp; Automation
                 </h2>
@@ -64,7 +64,7 @@ export default function Home() {
                   href="https://cazbrunsch.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center mt-6 text-[14px] text-foreground underline underline-offset-4 decoration-border-strong hover:decoration-foreground transition-[text-decoration-color] duration-150"
+                  className="inline-flex items-center mt-6 text-[14px] text-foreground underline underline-offset-4 decoration-border-strong hover:decoration-accent transition-[text-decoration-color] duration-150"
                 >
                   cazbrunsch.com →
                 </a>
@@ -72,7 +72,7 @@ export default function Home() {
 
               {/* Service 2 */}
               <div className="border-t border-border-strong pt-8">
-                <p className="text-xs font-medium tracking-widest uppercase text-muted-light mb-4">02</p>
+                <p className="text-xs font-medium tracking-widest uppercase text-accent mb-4">02</p>
                 <h2 className="text-xl font-semibold text-foreground mb-4 leading-snug">
                   Software &amp; Product Development
                 </h2>
@@ -94,7 +94,7 @@ export default function Home() {
 
               {/* Service 3 */}
               <div className="border-t border-border-strong pt-8">
-                <p className="text-xs font-medium tracking-widest uppercase text-muted-light mb-4">03</p>
+                <p className="text-xs font-medium tracking-widest uppercase text-accent mb-4">03</p>
                 <h2 className="text-xl font-semibold text-foreground mb-4 leading-snug">
                   Business Consulting &amp; Diagnostics
                 </h2>
@@ -119,13 +119,13 @@ export default function Home() {
         {/* ── What We've Built ─────────────────────────────────────────── */}
         <section id="what-weve-built" className="border-t border-border">
           <div className="max-w-5xl mx-auto px-6 py-24 md:py-32">
-            <p className="text-xs font-medium tracking-widest uppercase text-muted-light mb-12">
+            <p className="text-xs font-medium tracking-widest uppercase text-accent mb-12">
               What We&apos;ve Built
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
               {/* Project 1 */}
-              <div className="border-t border-border-strong pt-8">
+              <div className="border-t border-accent pt-8">
                 <h2 className="text-xl font-semibold text-foreground mb-3">
                   TermSeeker
                 </h2>
@@ -140,14 +140,14 @@ export default function Home() {
                   href="https://term-seeker.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center mt-6 text-[14px] text-foreground underline underline-offset-4 decoration-border-strong hover:decoration-foreground transition-[text-decoration-color] duration-150"
+                  className="inline-flex items-center mt-6 text-[14px] text-foreground underline underline-offset-4 decoration-border-strong hover:decoration-accent transition-[text-decoration-color] duration-150"
                 >
                   View TermSeeker →
                 </a>
               </div>
 
               {/* Project 2 */}
-              <div className="border-t border-border-strong pt-8">
+              <div className="border-t border-accent pt-8">
                 <h2 className="text-xl font-semibold text-foreground mb-3">
                   Steve Pointon Counselling &amp; Support
                 </h2>
@@ -161,7 +161,7 @@ export default function Home() {
                   href="https://stevepointoncounsellingandsupport.co.uk/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center mt-6 text-[14px] text-foreground underline underline-offset-4 decoration-border-strong hover:decoration-foreground transition-[text-decoration-color] duration-150"
+                  className="inline-flex items-center mt-6 text-[14px] text-foreground underline underline-offset-4 decoration-border-strong hover:decoration-accent transition-[text-decoration-color] duration-150"
                 >
                   View site →
                 </a>
@@ -173,7 +173,7 @@ export default function Home() {
         {/* ── About ────────────────────────────────────────────────────── */}
         <section id="about" className="border-t border-border bg-subtle">
           <div className="max-w-5xl mx-auto px-6 py-24 md:py-32">
-            <p className="text-xs font-medium tracking-widest uppercase text-muted-light mb-12">
+            <p className="text-xs font-medium tracking-widest uppercase text-accent mb-12">
               About
             </p>
 
@@ -181,7 +181,7 @@ export default function Home() {
               {/* Adam */}
               <div>
                 <h2 className="text-xl font-semibold text-foreground mb-4">
-                  Adam Wiltsher
+                  Adam
                 </h2>
                 <p className="text-[15px] text-muted leading-relaxed">
                   Twenty years across customer success, operations, and
@@ -197,7 +197,7 @@ export default function Home() {
               {/* Caroline */}
               <div>
                 <h2 className="text-xl font-semibold text-foreground mb-4">
-                  Caroline Wiltsher
+                  Caroline
                 </h2>
                 <p className="text-[15px] text-muted leading-relaxed">
                   A senior marketing operations specialist with deep expertise
@@ -225,7 +225,7 @@ export default function Home() {
             </p>
             <a
               href="mailto:hello@flewidity.com"
-              className="inline-flex items-center mt-8 text-lg text-background underline underline-offset-4 decoration-muted-light hover:decoration-background transition-[text-decoration-color] duration-150"
+              className="inline-flex items-center mt-8 text-lg text-background underline underline-offset-4 decoration-accent hover:decoration-background transition-[text-decoration-color] duration-150"
             >
               hello@flewidity.com
             </a>
@@ -241,7 +241,7 @@ export default function Home() {
           </p>
           <a
             href="mailto:hello@flewidity.com"
-            className="text-[13px] text-muted-light hover:text-muted transition-colors duration-150"
+            className="text-[13px] text-muted-light hover:text-accent transition-colors duration-150"
           >
             hello@flewidity.com
           </a>
