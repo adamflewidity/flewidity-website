@@ -39,7 +39,7 @@ export default function Nav() {
         {/* Logo */}
         <a href="#" aria-label="Flewidity — home">
           <Image
-            src="/Flewidity Logo.svg"
+            src="/flewidity-logo.svg"
             alt="Flewidity"
             width={36}
             height={36}
