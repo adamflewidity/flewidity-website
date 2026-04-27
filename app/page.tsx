@@ -61,12 +61,12 @@ export default function Home() {
                   working properly — with minimal onboarding.
                 </p>
                 <a
-                  href="https://cazbrunsch.com/"
+                  href="https://revtech.flewidity.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center mt-6 text-[14px] text-foreground underline underline-offset-4 decoration-border-strong hover:decoration-accent transition-[text-decoration-color] duration-150"
                 >
-                  cazbrunsch.com →
+                  Flewidity RevTech Solutions →
                 </a>
               </div>
 
